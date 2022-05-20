@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "scrapper",
+    "version": "0.0.1",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Scraper",
+        "default_popup": "./popup.html"
+        
+    },
+    "permissions": ["tabs", "scripting", "activeTab"],
+   
+    
+    "host_permissions": [
+        "https://www.linkedin.com/*" 
+    ]
+}

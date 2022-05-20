@@ -1,0 +1,19 @@
+{
+    "name": "bootcampmayo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+      "dev": "node scripts/watch.js ",
+      "fake:dev": "json-server --watch ./fakeapi/db.json"
+    },
+    "devDependencies": {
+      "esbuild": "^0.14.38",
+      "json-server": "^0.17.0"
+    },
+    "dependencies": {
+      "dexie": "^3.2.2"
+    }
+  }
+  
